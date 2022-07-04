@@ -5,26 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://img2.freepng.es/20180328/hve/kisspng-blushing-emoji-emoticon-smiley-clip-art-emoji-5abb337b81f463.6252700315222178515323.jpg" type="image/x-icon">
-    <title>Primera pagina</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            background-color: #C5A3FF;
+            font-family: 'Finlandica', sans-serif;
+        }
+        .container-presentacion{
+            text-align: center;
+            margin: 20px;
+            padding-left: 100px;
+            padding-right: 100px;
+            
+        }
+        .card{
+            background-color: #DCD3FF ;  
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-radius: 30px;
+        }
+        .foto{
+            border-radius: 50%;
+            width: 260px;
+        }
+        .presentacion{
+            font-size: 15px;
+        }
+        .redes{
+            display: flex;
+            justify-content: center;
+        }
+        .redes ul{
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            text-align: center;
+        }
+        .redes ul li{
+            margin-left: 15px;
+        }
+    </style>
+    <title>Personal Card</title>
 </head>
-<body>
-    <article>
-        <div>
+<body class="container">
+    <article class="container-presentacion">
+        <div class="card">
             <div>
                 <header>
-                    <img src="https://i.postimg.cc/YCNm7GZ3/Pics-Art-04-06-09-51-54.jpg" alt="Sofia Peñares" width="160px">
+                    <img src="https://i.postimg.cc/h4LDZyjx/Pics-Art-07-18-04-26-41.jpg" alt="Sofia Peñares" class="foto">
                 </header>
                 <main>
                     <h1>Sofia Peñares</h1>
-                    <h2>👨‍💻Desarrollador👨‍💻 | 🌌Frontend🌌 | ⚛React⚛ | 💻Docente💻</h2>
-                    <p>Desarrolladora  / programadora</p>
+                    <h4>👨‍💻Desarrollador👨‍💻 | 💾Bases de Datos (SQL) 💾 </h4>
+                    <p class="presentacion">Bachiller en ingeniería de sistemas con experiencia en diseño y desarrollo de 
+                        bases de datos, desarrollo de programas, diseño de interfaces web y de usuario</p>
                 </main>
                 <footer>
-                    <nav>
+                    <nav class="redes">
                         <ul>
                             <li>
-                                <a href="https://drive.google.com/file/d/14Z2F8sNVva219x6D4CDfM2NdoPVNEHbG/view?usp=sharing" target="_blank" rel="noreferrer nooperner">
-                                    <img src="https://i.postimg.cc/dtPYcvbM/youtube.png" alt="YouTube" width="32px">
+                                <a href="https://web.facebook.com/sofiaferpenares" target="_blank" rel="noreferrer nooperner">
+                                    <img src="https://i.postimg.cc/NfrmcGqS/f66d49097e18978ddf46282c233040a9.png" alt="YouTube" width="32px">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/sofiaferpenares/" target="_blank" rel="noreferrer nooperner">
+                                    <img src="https://i.postimg.cc/y8s4Hd38/174855.png" alt="YouTube" width="32px">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/sofia-pe%C3%B1ares-pillaca/" target="_blank" rel="noreferrer nooperner">
+                                    <img src="https://i.postimg.cc/7YbJNHZb/174857.png" alt="YouTube" width="32px">
                                 </a>
                             </li>
                         </ul>
@@ -33,7 +87,5 @@
             </div>            
         </div>
     </article>
-    <h1>Segundo Commit</h1>
-    <p>demostración de segundo Commit</p>
 </body>
 </html>
